@@ -13,7 +13,8 @@ on:
 jobs:
   build:
     strategy:
-      matrix:
+     fail-fast: false
+     matrix:
         npm-version: [9.6.5,9.6.6,9.8.1]
     runs-on: ubuntu-latest
     steps:
