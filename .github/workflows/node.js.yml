@@ -14,7 +14,7 @@ jobs:
   build:
     strategy:
       matrix:
-        npm-version: [9.6.6,9.6.7]
+        npm-version: [9.6.5,9.6.6]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
